@@ -1,0 +1,23 @@
+- Cách dung: 
+ + Cài đặt driver CH34x.exe
+ + Cắm cáp bộ nhận trước khi khởi động app test
+
+- Cách tách dữ liệu từ bộ trung tâm:
+  + Dữ phân tách bang dấu 
+  + Dữ liệu là dạng chuỗi String
+- Thứ tự dữ liệu sau khi tách:
+  + Dữ liệu thứ 0: Gọi số ở cửa 1
+  + Dữ liệu thứ 1: Gọi số ở cửa 2
+  + Dữ liệu thứ 2: Gọi số ở cửa 3
+  + Dữ liệu thứ 3: Gọi số ở cửa 4
+  + Dữ liệu thứ 4: Gọi số ở cửa 5
+
+  + Dữ liệu thứ 5: Gọi lại số ở cửa 1
+  + Dữ liệu thứ 6: Gọi lại số ở cửa 2
+  + Dữ liệu thứ 7: Gọi lại số ở cửa 3
+  + Dữ liệu thứ 8: Gọi lại số ở cửa 4
+  + Dữ liệu thứ 9: Gọi lại số ở cửa 5
+
+---> lưu ý:
+     - Thời gian đẩy dữ liệu từ bộ trung tâm lên máy tính là 1s/1 lần
+     - Dữ liệu ô gọi lại sẽ về 0 khi nút next của cửa đó nhấn gọi người tiếp theo
